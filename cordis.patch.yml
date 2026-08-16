@@ -1,0 +1,5 @@
+# dsh-tray bundle patch: mounts the Host gateway; the modules scanner derives
+# the browser half from the same entry's dsh.client declaration.
+- insert:
+    - id: tray
+      name: 'dsh-tray'
